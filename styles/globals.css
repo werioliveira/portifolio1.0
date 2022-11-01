@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'League Spartan Bold';
+    font-style: bold;
+    font-weight: 700;
+    src: local(''), url('/fonts/LeagueSpartan-Bold.woff') format('woff');
+    }
+    @font-face {
+        font-family: 'FjallaOne-Regular';
+        font-style: normal;
+        font-weight: 400;
+        src: local(''), url('/fonts/FjallaOne-Regular.ttf') format('ttf');
+        }
+
+@layer components{
+    .contactInputs{
+        @apply outline-none rounded-sm border-b-4 px-6 py-4 text-gray-500 shadow-lg transition-all focus:border-gray-800/70 focus:text-gray-600/70
+        hover:border-gray-800/40 dark:hover:border-white/60 dark:focus:border-white/70 dark:focus:text-white/70
+    }
+    .btn{
+        @apply hover:bg-gray-800/95 transition-all dark:hover:bg-gray-50/50
+    }
+    body{ 
+        @apply dark:text-white dark:bg-gray-500
+    }
+}
