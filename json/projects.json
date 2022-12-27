@@ -1,34 +1,28 @@
 {
     "projects":[
         {
-            "id":"1",
-            "name": "IFRACTION",
-            "image": "https://i.imgur.com/vtIFDwG.png",
-            "description": "An calculator to operator fractions on mobile phones, you can operator fractions and see step by step to how to can do the operator"
+            "name": "ifraction",
+            "image": "https://i.imgur.com/vtIFDwG.png"
         },
         {
-            "id":"2",
-            "name": "COMMING SOON",
-            "image": "https://i.imgur.com/vtIFDwG.png",
-            "description": "packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy"
+            "name": "mir4calculator",
+            "image": "https://i.imgur.com/vC0pCn0.png"
+        },
+		{
+			"name": "portifolio",
+			"image": "https://i.imgur.com/8lWlSHW.png"
+		},
+		{
+			"name": "loremGenerator",
+			"image": "https://i.imgur.com/dZ2duId.png"
+		},
+        {
+            "name": "bin2dec2bin",
+            "image": "https://i.imgur.com/zEGvwwU.png"
         },
         {
-            "id":"3",
-            "name": "COMMING SOON",
-            "image": "https://i.imgur.com/vtIFDwG.png",
-            "description": "packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy"
-        },
-        {
-            "id":"4",
-            "name": "COMMING SOON",
-            "image": "https://i.imgur.com/vtIFDwG.png",
-            "description": "packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy"
-        },
-        {
-            "id":"5",
-            "name": "COMMING SOON",
-            "image": "https://i.imgur.com/vtIFDwG.png",
-            "description": "packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy"
+            "name": "gitProfile",
+            "image": "https://i.imgur.com/wepkpd2.png"
         }
 
     ]

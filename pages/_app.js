@@ -1,5 +1,6 @@
 import { ThemeProvider } from "next-themes";
 import "../styles/globals.css";
+import App from 'next/app';
 
 function MyApp({ Component, pageProps }) {
   return (

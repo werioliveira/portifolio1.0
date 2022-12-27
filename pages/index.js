@@ -2,6 +2,7 @@ import Head from "next/head";
 import Contact from "../components/Contact";
 import Header from "../components/Header";
 import Main from "../components/Main";
+import ProjectPage from "../components/ProjectPage";
 import Projects from "../components/Projects";
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
         <Main />
       </section>
       <section id="projects" className="snap-start">
-        <Projects />
+        <Projects/>
       </section>
       <section id="contact" className="snap-start">
         <Contact />
@@ -25,3 +26,4 @@ export default function Home() {
     </div>
   );
 }
+

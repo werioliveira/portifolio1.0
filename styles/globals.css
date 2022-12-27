@@ -14,7 +14,11 @@
         font-weight: 400;
         src: local(''), url('/fonts/FjallaOne-Regular.ttf') format('ttf');
         }
-
+@layer base {
+    html {
+          @apply scroll-smooth;
+         }
+  }
 @layer components{
     .contactInputs{
         @apply outline-none rounded-sm border-b-4 px-6 py-4 text-gray-500 shadow-lg transition-all focus:border-gray-800/70 focus:text-gray-600/70
@@ -26,4 +30,5 @@
     body{ 
         @apply dark:text-white dark:bg-gray-500
     }
+    
 }
