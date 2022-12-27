@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import projectJson from "../json/projects.json";
 
@@ -17,7 +18,14 @@ function ProjectCard({ props }) {
       <div className="flex m-10 flex-shrink-0">
         <div className="flex-row w-full mx-auto justify-center items-center">
           <h3 className="font-Rajdhani font-bold text-2xl">
-            <a target="_blank" href={props.html_url}>{props.name}</a></h3>
+            <Link href={props.html_url}>
+                <a target="_blank" rel="noopener noreferrer">
+                  {props.name}
+                </a>
+            </Link>
+            </h3>
+
+
           <div className="flex items-center justify-center">
             {/* 
                         <div className="absolute w-full h-10 bg-gray-600 flex items-center justify-center rounded-lg cursor-pointer hidden">
