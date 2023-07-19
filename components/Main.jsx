@@ -22,7 +22,7 @@ function Main() {
             </p>
             <div className="pt-5">
               <h3 className="leading-8 tracking-wide text-lg text-gray-700 font-medium font-Rajdhani dark:text-white">
-                Age: 24
+                Age: 25
               </h3>
               <h3 className="racking-wide text-lg text-gray-700 font-medium font-Rajdhani dark:text-white">
                 Formation: Analyze and Development of Sistems at IFBA
